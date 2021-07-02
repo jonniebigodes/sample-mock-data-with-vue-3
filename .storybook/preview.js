@@ -1,5 +1,6 @@
 import { addDecorator } from '@storybook/vue3'
 import { initializeWorker, mswDecorator } from 'msw-storybook-addon';
+
 initializeWorker();
 addDecorator(mswDecorator);
 
