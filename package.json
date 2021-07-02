@@ -23,6 +23,7 @@
     "serve-prod": "http-server storybook-static"
   },
   "dependencies": {
+    "@vue/apollo-composable": "^4.0.0-alpha.12",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
